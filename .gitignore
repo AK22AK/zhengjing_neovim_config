@@ -1,0 +1,16 @@
+# macOS
+.DS_Store
+
+# Editor swap/backup
+*.swp
+*.swo
+*~
+
+# Neovim local runtime artifacts inside config dir
+spell/
+plugin/
+session/
+sessions/
+
+# Optional local-only notes
+.nvim.local.lua
