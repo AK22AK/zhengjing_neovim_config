@@ -135,3 +135,5 @@ vim.keymap.set("n", "<leader>sv", ":vsplit<CR>", { desc = "Vertical split" })
 vim.keymap.set("n", "<leader>sh", ":split<CR>", { desc = "Horizontal split" })
 vim.keymap.set("n", "<Tab>", ":bnext<CR>", { desc = "Next buffer" })
 vim.keymap.set("n", "<S-Tab>", ":bprevious<CR>", { desc = "Previous buffer" })
+
+require("config.keymaps")
